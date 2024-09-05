@@ -67,6 +67,7 @@ namespace CarLotSimulator
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
             Car.parkingLot = new List<Car>() { car1, car2, car3 };
 
+            Console.WriteLine($"Number of Cars created {CarLot.numberOfCars}:");
             foreach (var car in Car.parkingLot)
             {
                 Console.WriteLine($"Year: {car.Year} Make: {car.Make} Model: {car.Model}");
